@@ -1,0 +1,24 @@
+{
+  "name": "rollup-plugin-postcss",
+  "version": "1.0.0",
+  "author": "Johan Holmerin",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johanholmerin/rollup-plugin-postcss.git"
+  },
+  "peerDependencies": {
+    "rollup": ">=0.60.0 <2"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "rollup": ">=0.60.0 <2"
+  },
+  "dependencies": {
+    "postcss": "^7.0.17",
+    "rollup-pluginutils": "^2.8.1"
+  },
+  "scripts": {
+    "lint": "eslint *.js"
+  }
+}
